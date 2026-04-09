@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO: Canonical URL (Prevents duplicate content penalties) -->
+    <!-- SEO: Canonical URL -->
     <link rel="canonical" href="https://www.fifthdimensions.com/">
 
-    <!-- SEO: Optimized Meta Title (Targeting Location + Service + Intent) -->
+    <!-- SEO: Optimized Meta Title -->
     <title>Top Web, App & Marketing Agency in Dubai & India | Fifth Dimensions</title>
 
-    <!-- SEO: Optimized Meta Description (High CTR focused) -->
+    <!-- SEO: Optimized Meta Description -->
     <meta name="description"
         content="Fifth Dimensions is a leading digital agency in Dubai and India. Expert Website Development, Mobile Apps, and Digital Marketing services to grow your business. Get a free consultation.">
 
-    <!-- SEO: Keywords (Semantic focus) -->
+    <!-- SEO: Keywords -->
     <meta name="keywords"
         content="Web Development Dubai, App Development India, Digital Marketing Agency, SEO Services Dubai, Custom Software, Fifth Dimensions">
 
@@ -24,7 +24,7 @@
     <meta name="author" content="Fifth Dimensions">
     <meta name="theme-color" content="#0C0C0C">
 
-    <!-- Open Graph / Social Media (Optimized for sharing) -->
+    <!-- Open Graph / Social Media -->
     <meta property="og:type" content="business.business">
     <meta property="og:title" content="Fifth Dimensions — Digital Excellence in India & UAE">
     <meta property="og:description"
@@ -190,7 +190,6 @@
     </script>
 
     <style>
-        /* ... (Keeping existing styles for consistency) ... */
         *,
         *::before,
         *::after {
@@ -409,12 +408,14 @@
             box-shadow: 0 20px 60px -15px rgba(0, 0, 0, 0.5);
         }
 
-        .service-card h3 {
-            cursor: pointer;
+        /* Link styling for service titles */
+        .service-card h3 a {
+            text-decoration: none;
+            color: inherit;
             transition: color 0.3s;
         }
 
-        .service-card h3:hover {
+        .service-card h3 a:hover {
             color: #D4AF37;
         }
 
@@ -666,6 +667,17 @@
             text-decoration: underline;
         }
 
+        /* Footer Link Styling */
+        footer a {
+            color: #888;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #D4AF37;
+        }
+
         @media (max-width: 768px) {
             .desktop-nav {
                 display: none !important;
@@ -747,7 +759,7 @@
         style="position:fixed; top:0; left:0; width:100%; z-index:50; padding:1.25rem 0; transition:all 0.4s;">
         <div
             style="max-width:1280px; margin:0 auto; padding:0 1.5rem; display:flex; justify-content:space-between; align-items:center;">
-            <a href="#" style="display:flex; align-items:center; gap:0.75rem; text-decoration:none;"
+            <a href="index.html" style="display:flex; align-items:center; gap:0.75rem; text-decoration:none;"
                 aria-label="Fifth Dimensions Home">
                 <div class="logo-mark"></div>
                 <span
@@ -864,13 +876,12 @@
                 </div>
 
                 <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.5rem;">
-                    <!-- Service 1: Internal Link Added -->
+                    <!-- Service 1: Links to Web Development Page -->
                     <article class="service-card reveal reveal-d1">
                         <div class="icon-box">
                             <span class="iconify" data-icon="lucide:monitor" data-width="24"
                                 style="color:#D4AF37;"></span>
                         </div>
-                        <!-- SEO: Clickable H2 links to Contact with Query Parameter -->
                         <h3
                             style="font-family:'Manrope',sans-serif; font-weight:500; font-size:1.15rem; margin-bottom:0.75rem;">
                             <a href="web-development.html">Web Development</a>
@@ -900,7 +911,7 @@
                         </ul>
                     </article>
 
-                    <!-- Service 2 -->
+                    <!-- Service 2: Links to App Development Page -->
                     <article class="service-card reveal reveal-d2">
                         <div class="icon-box">
                             <span class="iconify" data-icon="lucide:smartphone" data-width="24"
@@ -935,7 +946,7 @@
                         </ul>
                     </article>
 
-                    <!-- Service 3 -->
+                    <!-- Service 3: Links to Digital Marketing Page -->
                     <article class="service-card reveal reveal-d3">
                         <div class="icon-box">
                             <span class="iconify" data-icon="lucide:megaphone" data-width="24"
@@ -943,7 +954,7 @@
                         </div>
                         <h3
                             style="font-family:'Manrope',sans-serif; font-weight:500; font-size:1.15rem; margin-bottom:0.75rem;">
-                        <a href="digital-marketing.html">Digital Marketing</a>
+                            <a href="digital-marketing.html">Digital Marketing</a>
                         </h3>
                         <p
                             style="color:#888; font-weight:300; line-height:1.75; font-size:0.9rem; margin-bottom:1.5rem;">
@@ -1367,22 +1378,11 @@
                         style="font-size:0.7rem; font-weight:600; letter-spacing:0.2em; text-transform:uppercase; color:#EDEDED; margin-bottom:1.25rem;">
                         Services</h4>
                     <ul style="list-style:none; display:flex; flex-direction:column; gap:0.75rem;">
-                        <li><a href="#services"
-                                style="color:#888; font-size:0.875rem; font-weight:300; text-decoration:none; transition:color 0.3s;"
-                                onmouseover="this.style.color='#EDEDED'" onmouseout="this.style.color='#888'">Website
-                                Development</a></li>
-                        <li><a href="#services"
-                                style="color:#888; font-size:0.875rem; font-weight:300; text-decoration:none; transition:color 0.3s;"
-                                onmouseover="this.style.color='#EDEDED'" onmouseout="this.style.color='#888'">App
-                                Development</a></li>
-                        <li><a href="#services"
-                                style="color:#888; font-size:0.875rem; font-weight:300; text-decoration:none; transition:color 0.3s;"
-                                onmouseover="this.style.color='#EDEDED'" onmouseout="this.style.color='#888'">Digital
-                                Marketing</a></li>
-                        <li><a href="#services"
-                                style="color:#888; font-size:0.875rem; font-weight:300; text-decoration:none; transition:color 0.3s;"
-                                onmouseover="this.style.color='#EDEDED'" onmouseout="this.style.color='#888'">SEO
-                                Optimization</a></li>
+                        <!-- Updated Footer Links -->
+                        <li><a href="web-development.html">Website Development</a></li>
+                        <li><a href="app-development.html">App Development</a></li>
+                        <li><a href="digital-marketing.html">Digital Marketing</a></li>
+                        <li><a href="digital-marketing.html">SEO Optimization</a></li>
                     </ul>
                 </div>
 
@@ -1391,22 +1391,10 @@
                         style="font-size:0.7rem; font-weight:600; letter-spacing:0.2em; text-transform:uppercase; color:#EDEDED; margin-bottom:1.25rem;">
                         Company</h4>
                     <ul style="list-style:none; display:flex; flex-direction:column; gap:0.75rem;">
-                        <li><a href="#about"
-                                style="color:#888; font-size:0.875rem; font-weight:300; text-decoration:none; transition:color 0.3s;"
-                                onmouseover="this.style.color='#EDEDED'" onmouseout="this.style.color='#888'">About
-                                Us</a></li>
-                        <li><a href="#process"
-                                style="color:#888; font-size:0.875rem; font-weight:300; text-decoration:none; transition:color 0.3s;"
-                                onmouseover="this.style.color='#EDEDED'" onmouseout="this.style.color='#888'">Our
-                                Process</a></li>
-                        <li><a href="#testimonials"
-                                style="color:#888; font-size:0.875rem; font-weight:300; text-decoration:none; transition:color 0.3s;"
-                                onmouseover="this.style.color='#EDEDED'"
-                                onmouseout="this.style.color='#888'">Testimonials</a></li>
-                        <li><a href="#contact"
-                                style="color:#888; font-size:0.875rem; font-weight:300; text-decoration:none; transition:color 0.3s;"
-                                onmouseover="this.style.color='#EDEDED'"
-                                onmouseout="this.style.color='#888'">Contact</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#process">Our Process</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
 
@@ -1441,11 +1429,11 @@
                 </p>
                 <div style="display:flex; gap:1.5rem;">
                     <a href="#"
-                        style="color:#555; font-size:0.75rem; font-weight:300; text-decoration:none; transition:color 0.3s;"
-                        onmouseover="this.style.color='#888'" onmouseout="this.style.color='#555'">Privacy Policy</a>
+                        style="color:#555; font-size:0.75rem; font-weight:300; text-decoration:none; transition:color 0.3s;">Privacy
+                        Policy</a>
                     <a href="#"
-                        style="color:#555; font-size:0.75rem; font-weight:300; text-decoration:none; transition:color 0.3s;"
-                        onmouseover="this.style.color='#888'" onmouseout="this.style.color='#555'">Terms of Service</a>
+                        style="color:#555; font-size:0.75rem; font-weight:300; text-decoration:none; transition:color 0.3s;">Terms
+                        of Service</a>
                 </div>
             </div>
         </div>
